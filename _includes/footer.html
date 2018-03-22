@@ -1,14 +1,33 @@
 <footer class="site-footer">
 
-  <div class="wrap text-center">
-    {% if site.github_username %}
-    <a href="https://github.com/{{ site.github_username }}">
-      <span class="ion ion-social-github" aria-label="GitHub Icon"></span> Quelltext
-    </a>&nbsp;
-    {% endif %}
-    <a href="/impressum">Impressum</a>&nbsp;
-    <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="nofollow" target="_blank"><img src="/assets/license.png" alt="Creative Commons BY-NC-SA" height="15" width="80"></a>
+  <div class="text-center">
+    <a class="footer-item" href="{{ site.repo }}" target="_blank" rel="noopener">
+      {% include icon.html icon="github" %}
+      {% if page.lang == 'by' %}
+      Soß
+      {% else %}
+      Quelltext
+      {% endif %}
+    </a>
+    <a class="footer-item" href="https://creativecommons.org/licenses/by-nc/4.0/deed.de" target="_blank" rel="nofollow noopener">
+      {% include icon.html icon="cc" %}
+      BY-NC
+    </a>
+    <a class="footer-item" href="/impressum/">
+      {% include icon.html icon="impressum" %}
+      Impressum
+    </a>
+    <div class="footer-item">
+      {% if page.lang == 'by' %}
+      Mid {% include icon.html icon="heart" %} baud vo 
+      {% else %}
+      Mit {% include icon.html icon="heart" %} gebaut von 
+      {% endif %}
+      <a href="https://rohner.io/" target="_blank" rel="noopener">Rohner Solutions</a>
+    </div>
+  </div>
+  <div class="bottombar">
+    <div class="progressbar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
   </div>
 
 </footer>
-

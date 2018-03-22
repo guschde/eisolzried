@@ -1,24 +1,34 @@
 # Site settings
-title: Freiwillige Feuerwehr Eisolzried
-email: info@feuerwehr-eisolzried.de
-description: "Aktuelle Neuigkeiten, Termine und Wissenswertes über die Feuerwehr Eisolzried im Bürgerhaus Deutenhausen-Eisolzried in der Gemeinde Bergkirchen"
+title: Feuerwehr Eisolzried
+description: >
+  Aktuelle Neuigkeiten, Termine und Wissenswertes der Feuerwehr Eisolzried im Bürgerhaus Deutenhausen-Eisolzried in der Gemeinde Bergkirchen
 baseurl: ""
-url: "http://feuerwehr-eisolzried.de"
-github_username: midzer/eisolzried
+url: https://feuerwehr-eisolzried.de
+repo: https://github.com/midzer/eisolzried
+email: info@feuerwehr-eisolzried.de
+
+# SEO/Meta settings
+author: midzer
+seo:
+  name: Feuerwehr Eisolzried
+  type: Organisation
 
 # Build settings
 markdown: kramdown
 permalink: pretty
-keep_files: [/charts]
-exclude: [vendor,config.json,Gemfile,README.md]
+include: ['_pages']
+exclude:
+  - vendor
+  - Gemfile
+  - README.md
+  - node_modules
+  - package.json
+  - package-lock.json
+  - gulpfile.babel.js
+  - yarn.lock
+keep_files:
+  - charts
 
-# Compress HTML
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  ignore:
-    envs: [development]
-  blanklines: false
-  profile: false
-  startings: [html, head, body]
+# Plugin settings
+plugins:
+  - jekyll-seo-tag

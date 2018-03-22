@@ -1,0 +1,18 @@
+<div class="lazy chatbox" data-src="/assets/js/chatbox.js">
+  <ul id="chat-messages" class="list-unstyled"></ul>
+</div>
+<form id="chat-form">
+  <div class="input-group">
+    {% if page.lang == 'by' %}
+    {% assign write = 'schreim...' %}
+    {% assign send = 'Aufi!' %}
+    {% else %}
+    {% assign write = 'schreiben...' %}
+    {% assign send = 'Los!' %}
+    {% endif %}
+    <input id="chat-input" type="text" autocomplete="off" class="form-control" placeholder="{{ write }}" aria-label="Chateingabefeld">
+    <div class="input-group-append">
+      <button id="chat-btn" class="btn btn-outline-primary" type="button">{{ send }}</button>
+    </div>
+  </div>
+</form>

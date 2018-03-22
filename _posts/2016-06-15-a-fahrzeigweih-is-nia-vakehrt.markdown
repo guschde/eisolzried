@@ -2,7 +2,7 @@
 layout: post
 title:  "A Fahrzeigweih is nia vakehrt"
 date:   2016-06-15
-imgfolder: /images/2016/feiern
+imgfolder: /assets/images/2016/feiern/
 images:
   - name: fahrzeugweihe01.jpg
     text: Fahrzeugweihe 1
@@ -44,6 +44,8 @@ images:
     text: Fahrzeugweihe 19
   - name: fahrzeugweihe20.jpg
     text: Fahrzeugweihe 20
+lang: de
+tags: allgemeines
 ---
 
 Am Sonntag, den 05. Juni 2016, um 8 Uhr war Treffpunkt am Feuerwehrhaus der freiwilligen Feuerwehr Eisolzried. Zusammen mit Marschkapelle und Fahnenabordnungen startete der Festzug in Richtung Nikolauskirche in Deutenhausen. Nach dem Gottesdienst ging die Festtagsgemeinde ins Freie und Pfarrer Hack segnete und weihte das neue Fahrzeug.

@@ -2,12 +2,14 @@
 layout: post
 title:  "Wenn die staade Zeit vorbei is"
 date:   2015-12-06
-imgfolder: /images/2015/feiern
+imgfolder: /assets/images/2015/feiern/
 images:
   - name: weihnachtsfeier1.jpg
     text: Weihnachtsfeier 1
   - name: weihnachtsfeier2.jpg
     text: Weihnachtsfeier 2
+lang: de
+tags: allgemeines
 ---
 
 ... werd's wieda ruhiga. Mit diesem Zitat von Karl Valentin schloss der dritte Bürgermeister Robert Axtner gestern seine Rede im Gasthaus Burgmayr in Eisolzried.

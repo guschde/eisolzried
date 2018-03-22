@@ -2,7 +2,7 @@
 layout: post
 title:  "Ausbildung zum Ersthelfer Feuerwehr"
 date:   2016-03-02
-imgfolder: /images/2016/uebungen
+imgfolder: /assets/images/2016/uebungen/
 images:
   - name: ersthelfer01.jpg
     text: Ersthelfer 1
@@ -30,6 +30,8 @@ images:
     text: Ersthelfer 12
   - name: ersthelfer13.jpg
     text: Ersthelfer 13
+lang: de
+tags: uebungen
 ---
 
 Am 23. Januar 2016 fand bei der Feuerwehr Karlsfeld die erste Ausbildung in diesem Jahr zum Ersthelfer Feuerwehr statt.

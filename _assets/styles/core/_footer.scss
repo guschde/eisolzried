@@ -1,0 +1,26 @@
+.site-footer {
+  border-top: 1px solid $gray-200;
+  margin-top: 2rem;
+  padding: 1rem 0;
+}
+
+.footer-item {
+  padding: 0.5rem;
+}
+
+.bottombar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background-color: rgba(0,0,0,.3);
+}
+
+.progressbar {
+  width: 0%;
+  height: 100%;
+  background-color: $primary;
+  transition: width .3s linear;
+  will-change: width;
+}

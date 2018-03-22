@@ -2,7 +2,7 @@
 layout: post
 title:  "Sturmeinsatz im Brunnenweg"
 date:   2015-04-02
-imgfolder: /images/2015/einsaetze
+imgfolder: /assets/images/2015/einsaetze/
 images:
   - name: sturm1.jpg
     text: Sturm 1
@@ -12,6 +12,8 @@ images:
     text: Sturm 3
   - name: sturm4.jpg
     text: Sturm 4
+lang: de
+tags: einsaetze
 ---
 
 31.03.15 - Sturmtief "Niklas"

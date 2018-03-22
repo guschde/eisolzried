@@ -2,12 +2,14 @@
 layout: post
 title:  "Kleinbrand gelöscht"
 date:   2015-12-07
-imgfolder: /images/2015/einsaetze
+imgfolder: /assets/images/2015/einsaetze/
 images:
   - name: kleinbrand1.jpg
     text: Kleinbrand 1
   - name: kleinbrand2.jpg
     text: Kleinbrand 2
+lang: de
+tags: einsaetze
 ---
 
 Heute nachmittag gegen 15:30 Uhr wurden die Feuerwehren Eisolzried und Lauterbach alarmiert, weil Rauchentwicklung an einem kleinen Wäldchen nahe der Verbindungsstraße zwischen Eisolzried und Eisolzrieder See gemeldet wurde.

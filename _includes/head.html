@@ -1,32 +1,19 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="{{ site.description }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- For IE 9 and below. ICO should be 32x32 pixels in size -->
-    <!--[if IE]><link rel="shortcut icon" href="/favicon.ico"><![endif]-->
+    <!-- Stylesheets -->
+    {% include styles.html %}
 
-    <!-- Touch Icons - iOS and Android 2.1+ 180x180 pixels in size. -->
-    <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png">
+    <!-- Preload -->
+    {% include preload.html %}
 
-    <!-- Firefox, Chrome, Safari, IE 11+ and Opera. 196x196 pixels in size. -->
-    <link rel="icon" href="/favicon.png">
+    <!-- SEO -->
+    {% seo %}
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
+    <!-- Meta -->
+    {% include meta.html %}
 
-    <!-- Ionicons -->
-    <link rel="stylesheet" href="{{ "/css/ionicons.min.css" | prepend: site.baseurl }}">
-
-    <!-- jQuery UI -->
-    <link rel="stylesheet" href="{{ "/css/jquery-ui.min.css" | prepend: site.baseurl }}">
-
-    <!-- Lightbox -->
-    <link rel="stylesheet" href="{{ "/css/lightbox.min.css" | prepend: site.baseurl }}">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ "/css/main.min.css" | prepend: site.baseurl }}">
+    {% include polyfill.html %}
 </head>

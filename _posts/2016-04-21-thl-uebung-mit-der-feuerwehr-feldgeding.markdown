@@ -2,7 +2,7 @@
 layout: post
 title:  "THL-Übung mit der Feuerwehr Feldgeding"
 date:   2016-04-21
-imgfolder: /images/2016/uebungen
+imgfolder: /assets/images/2016/uebungen/
 images:
   - name: thl-feldgeding01.jpg
     text: THL Feldgeding 1
@@ -24,6 +24,8 @@ images:
     text: THL Feldgeding 9
   - name: thl-feldgeding10.jpg
     text: THL Feldgeding 10
+lang: de
+tags: uebungen
 ---
 
 Zur Übung im April ging es diesmal zum Feuerwehrhaus nach Feldgeding.

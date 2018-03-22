@@ -2,7 +2,7 @@
 layout: post
 title:  "Neues Fahrzeug abgeholt"
 date:   2016-04-23
-imgfolder: /images/2016/uebungen
+imgfolder: /assets/images/2016/uebungen/
 images:
   - name: neues-fahrzeug1.jpg
     text: Neues Fahrzeug 1
@@ -16,6 +16,8 @@ images:
     text: Neues Fahrzeug 5
   - name: neues-fahrzeug6.jpg
     text: Neues Fahrzeug 6
+lang: de
+tags: allgemeines
 ---
 
 Am Freitag, 22. April war es endlich so weit: wir holten unser neues Fahrzeug von der Firma Lentner in Hohenlinden ab.

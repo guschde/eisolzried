@@ -1,7 +1,14 @@
 _site
 .sass-cache
-data/protokolle
+.bundle
+/vendor
+_assets/data
+_assets/videos
+_assets/images
+_images
 impressum.md
 intern.md
+by/impressum.md
+by/intern.md
 robots.txt
-
+node_modules

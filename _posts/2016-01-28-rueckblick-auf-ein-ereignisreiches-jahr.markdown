@@ -2,12 +2,14 @@
 layout: post
 title:  "Rückblick auf ein ereignisreiches Jahr"
 date:   2016-01-28
-imgfolder: /images/2016/feiern
+imgfolder: /assets/images/2016/feiern/
 images:
   - name: jahreshauptversammlung1.jpg
     text: Jahreshauptversammlung 1
   - name: jahreshauptversammlung2.jpg
     text: Jahreshauptversammlung 2
+lang: de
+tags: allgemeines
 ---
 
 Am 22.01.16 fand die Jahreshauptversammlung der Feuerwehr Eisolzried im Gasthaus Burgmayr in Eisolzried statt.

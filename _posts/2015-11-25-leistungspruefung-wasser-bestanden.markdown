@@ -2,7 +2,7 @@
 layout: post
 title:  "Leistungsprüfung Wasser bestanden"
 date:   2015-11-25
-imgfolder: /images/2015/uebungen
+imgfolder: /assets/images/2015/uebungen/
 images:
   - name: wasser01.jpg
     text: Wasser 1
@@ -48,12 +48,14 @@ images:
     text: Wasser 21
   - name: wasser22.jpg
     text: Wasser 22
+lang: de
+tags: uebungen
 ---
 
 Im Frühjahr wurde eine Leistungsprüfung Wasser erfolgreich abgelegt.
 
 <div class="table-responsive">
-<table>
+<table class="table">
   <thead>
     <tr>
       <th>Gruppenführer</th>
@@ -86,4 +88,3 @@ Im Frühjahr wurde eine Leistungsprüfung Wasser erfolgreich abgelegt.
 </div>
 
 {% include gal.html %}
-

@@ -1,0 +1,36 @@
+<ul id="posts" class="lazy list-unstyled" data-src="/assets/js/posts.js">
+{% assign sorted-posts = site.posts | where: "lang",page.lang %}
+{% for post in sorted-posts %}
+  {% if forloop.index > 7 %}
+  <li hidden>
+  {% else %}
+  <li>
+  {% endif %}
+    <div class="post-meta">
+      {% include date.html %}
+    </div>
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" data-index="{{ forloop.index }}">
+      {{ post.title }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<button id="moreposts" type="button" class="btn btn-outline-primary d-block mx-auto">
+  {% include icon.html icon="plus" %}
+  {% if page.lang == 'by' %}
+  Meara
+  {% else %}
+  Mehr
+  {% endif %}
+</button>
+<br>
+<p class="card-text">
+  <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+    {% include icon.html icon="cast" %}
+    {% if page.lang == 'by' %}
+    As neiaste bschtoin
+    {% else %}
+    RSS abonnieren
+    {% endif %}
+  </a>
+</p>
